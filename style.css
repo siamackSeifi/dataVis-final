@@ -1,0 +1,60 @@
+
+
+body{
+    font: 10px sans-serif;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+
+.red-stroke {
+    stroke: red;
+    fill: none;
+    stroke-width: 2px;
+}
+
+.red-area {
+    fill: red;
+    opacity:.25;
+}
+
+.blue-stroke {
+    stroke: blue;
+    fill: none;
+    stroke-width: 2px;
+}
+
+.blue-area {
+    fill: blue;
+    opacity:.25;
+}
+
+
+.area{
+    opacity:.25;
+    fill: #3498db;
+}
+.circle{
+    stroke: #3498db;
+    fill: #fff;
+    stroke-width: 2px;
+}
+.circle.active{
+    stroke-width: 3px;
+}
+.bubble rect{
+    stroke: #3498db;
+    fill: #fff;
+}
+.bubble text{
+    font-size: 12px;
+}
+
+.y.axis {
+    transform: translateX(50px);
+}
+
